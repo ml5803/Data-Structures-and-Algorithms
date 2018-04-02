@@ -15,4 +15,8 @@ Python Garbage Collector - keeps track of reference counters. If no references, 
     Logb(a) > d -> Theta(n^logb(a))
     Logb(a) =  d -> Theta(log(n)*n^d)
     Logb(a) < d -> Theta(n^d)
+    
+    Restrictions: 
+    1. a >= 1 - at least 1 sub-problem
+    2. b > 1 - have to form sub-problems
 '''''
